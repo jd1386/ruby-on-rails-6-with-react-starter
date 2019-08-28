@@ -7,6 +7,7 @@ class Home extends React.Component {
       <>
         <div>This is the Home page.</div>
         <ul>
+          <li><Link to="/posts">Posts</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
